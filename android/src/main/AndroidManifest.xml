@@ -10,4 +10,8 @@ package="com.jobeso.RNWhatsAppStickers">
         android:readPermission="com.whatsapp.sticker.READ" />
 
 </application>
+<queries>
+    <package android:name="com.whatsapp" />
+    <package android:name="com.whatsapp.w4b" />
+</queries>
 </manifest>
